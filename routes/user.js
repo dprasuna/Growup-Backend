@@ -2,9 +2,8 @@ const express = require('express');
 const router = express.Router();
 const User = require('../models/User');
 const authMiddleware = require('../middleware/authMiddleware'); // Import auth middleware
-=======
 const User = require('../models/user');
->>>>>>> 62a6e2f652761fa715c898925d0e091d2f5f9a98
+
 
 // POST /api/users
 router.post('/', async (req, res) => {
