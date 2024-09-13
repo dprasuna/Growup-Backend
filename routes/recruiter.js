@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Recruiter = require('../models/Recruiter');
+const Recruiter = require('../models/recruiter');
 const authMiddleware = require('../middleware/authMiddleware'); // Import auth middleware
 
 // POST /api/recruiters
