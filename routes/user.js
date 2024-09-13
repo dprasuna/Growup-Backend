@@ -1,6 +1,5 @@
 const express = require('express');
 const router = express.Router();
-<<<<<<< HEAD
 const User = require('../models/User');
 const authMiddleware = require('../middleware/authMiddleware'); // Import auth middleware
 =======
