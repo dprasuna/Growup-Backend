@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const User = require('../models/User');
 const authMiddleware = require('../middleware/authMiddleware'); // Import auth middleware
-const User = require('../models/user');
+
 
 
 // POST /api/users
