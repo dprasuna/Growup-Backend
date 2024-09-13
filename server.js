@@ -42,8 +42,8 @@ const portfolioRoutes = require('./routes/portfolio');
 const profileRoutes = require('./routes/profile');
 const recruiterRoutes = require('./routes/recruiter');
 const skillsRoutes = require('./routes/skills');
-const testimonialRoutes = require('./routes/testimonial');
-const workExperienceRoutes = require('./routes/work-experience');
+const testimonialRoutes = require('./routes/Testimonial');
+const workExperienceRoutes = require('./routes/Work-Experience');
 const companyWorkedRoutes = require('./routes/companyWorked');
 
 // Apply validation middleware for user routes
@@ -66,7 +66,7 @@ app.use('/api/portfolios', authMiddleware, portfolioRoutes);
 app.use('/api/profiles', authMiddleware, profileRoutes);
 app.use('/api/recruiters', authMiddleware, recruiterRoutes);
 app.use('/api/skills', authMiddleware, skillsRoutes);
-app.use('/api/testimonials', authMiddleware, testimonialRoutes);
+app.use('/api/estimonials', authMiddleware, testimonialRoutes);
 app.use('/api/work-experience', authMiddleware, workExperienceRoutes);
 app.use('/api/company-worked', authMiddleware, companyWorkedRoutes);
 
